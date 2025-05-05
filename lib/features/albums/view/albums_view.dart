@@ -11,6 +11,9 @@ import 'package:mobx_album_app/widgets/album_card.dart';
 class AlbumsView extends StatelessWidget {
   AlbumsView({super.key});
 
+  //1. Create State widget (view)
+  //2. Create Store (viewmodel)
+  //3. Init Store in view
   final _albumsViewModel = AlbumsViewModel(
     albumService: AlbumsService(
       Dio(BaseOptions(baseUrl: ServicePath.BASEURL.rawValue)),
