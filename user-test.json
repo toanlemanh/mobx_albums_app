@@ -1,0 +1,14 @@
+[
+{
+  "username":"toantom",
+  "password":"123456",
+  "job":"dev",
+  "luckyNumber":8,
+},
+{
+  "username":"tommy shelby",
+  "password":"123456",
+  "job":"gangster",
+  "luckyNumber":11,
+}
+]
